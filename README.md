@@ -1,5 +1,8 @@
 
 
+## WARNING ##
+THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
+
 ## About me ##
 
 Hello! im an italian developer looking to get linux, game dev and general programming knowledge!
@@ -7,7 +10,7 @@ Since i dont yet have a PC, i use ACode to make my code or neovim on termux some
 
 ## Why does this Repository even exist? ##
 
-When ill have a PC i'll have EndeavourOS with Hyprland and i am really attached to my configs so i don't wanna give them up while switching, so i made this repository where i could get my configs back!
+When ill have a PC, i'll have EndeavourOS with Hyprland and i am really attached to my configs so i don't wanna give them up while switching, so i made this repository where i could get my configs back!
 
 ## What is in the Repository? ##
 
