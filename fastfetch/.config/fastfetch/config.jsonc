@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+  "logo": {
+    "type": "builtin",
+    "source": "endeavouros",
+    "padding": {
+      "top": 6
+    }
+  },
+
+  "display": {
+    "separator": "  ",
+    "key": {
+      "width": 16
+    }
+  },
+
+  "modules": [
+    { "type": "title", "format": "\u001b[31m_-- Pizza@Muncher_14x8 --_\u001b[0m" },
+    "break",
+
+    { "type": "custom", "format": "╭────── Hardware ──────╮" },
+
+    { "type": "cpu", "key": "│  CPU", "keyColor": "yellow" },
+    { "type": "memory", "key": "│ 󰻠 RAM", "keyColor": "yellow" },
+    { "type": "disk", "key": "│  Disk", "keyColor": "yellow",  "format": "{1}/{2}" },
+
+    { "type": "custom", "format": "╰──────────────────────╯" },
+
+    "break",
+
+    { "type": "custom", "format": "╭────── Software ──────╮" },
+
+    { "type": "custom", "format": "Android 15", "key": " OS", "keyColor": "blue" },
+    { "type": "theme", "key": "│ 󰉼 Theme", "keyColor": "blue" },
+    { "type": "kernel", "key": "│ 󰋊 Kernel", "keyColor": "blue", "format": "{sysname}" },
+    { "type": "shell", "key": "│  Shell", "keyColor": "blue" },
+    { "type": "custom", "format": "Termux",  "key": "└  Terminal", "keyColor": "blue" },
+    { "type": "custom", "format": "Nord+", "key": "   └  Theme", "keyColor": "blue" },
+    { "type": "custom", "format": "JetBrains", "key": "     └  Font", "keyColor": "blue" },
+
+    "break",
+    
+    { "type": "de", "key": " DE", "keyColor": "blue" },
+    { "type": "wm", "key": "└  WM", "keyColor": "blue" },
+    { "type": "wmtheme", "key": "  └  WM-Theme", "keyColor": "blue" },
+
+    { "type": "custom", "format": "╰──────────────────────╯" },
+
+    "break",
+
+    { "type": "custom", "format": "╭────── Uptime ───────╮" },
+
+    { "type": "uptime", "key": "│  Uptime", "keyColor": "magenta" },
+    { "type": "custom", "format": "CET", "key": "└  Timezone", "keyColor": "magenta" },
+    { "type": "datetime", "key": "   └  Time", "keyColor": "magenta" },
+
+    { "type": "custom", "format": "╰─────────────────────╯" }
+  ]
+}

@@ -1,0 +1,41 @@
+add_newline = false
+
+format = """
+[](fg:green)\
+[$username](bg:green fg:black)\
+[](fg:green bg:blue)\
+[$directory](bg:blue fg:black)\
+[](fg:blue bg:magenta)\
+[$git_branch](bg:magenta fg:black)\
+[](fg:magenta)\
+$character
+"""
+
+[username]
+show_always = true
+format = "[  Nixxy_lv ](bg:green fg:black)"
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+home_symbol = "~"
+style = "bg:blue fg:black"
+format = "[  $path ]($style)"
+
+[git_branch]
+symbol = ""
+style = "bg:magenta fg:black"
+format = "[ $symbol $branch ]($style)"
+
+[character]
+success_symbol = "[\\$](bold green) "
+error_symbol = "[\\$](bold red) "
+
+[kotlin]
+disabled = true
+
+[time]
+disabled = true
+
+#[Unused icons]
+#  
