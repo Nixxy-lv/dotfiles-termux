@@ -1,0 +1,4 @@
+*.lua linguist-detectable=false
+*.json linguist-language=JSON
+*.jsonc linguist-language=JSON
+*.toml linguist-language=TOML
