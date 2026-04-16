@@ -32,7 +32,7 @@
 
     { "type": "custom", "format": "╭────── Software ──────╮" },
 
-    { "type": "custom", "format": "Android 15", "key": " OS", "keyColor": "blue" },
+    { "type": "custom", "format": "Android 16", "key": " OS", "keyColor": "blue" },
     { "type": "theme", "key": "│ 󰉼 Theme", "keyColor": "blue" },
     { "type": "kernel", "key": "│ 󰋊 Kernel", "keyColor": "blue", "format": "{sysname}" },
     { "type": "shell", "key": "│  Shell", "keyColor": "blue" },

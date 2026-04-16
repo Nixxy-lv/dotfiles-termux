@@ -25,45 +25,28 @@ require("lazy").setup({
   },
 
   -- 🖥️ DASHBOARD (LOGO)
-  {
-    "nvimdev/dashboard-nvim",
-    event = "VimEnter",
-    config = function()
-      require("dashboard").setup({
-        theme = "doom",
-        config = {
-		vertical_center = true,
-          header = {
-            "",
-            "",
-            "███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗",
-            "████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║",
-            "██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║",
-            "██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║",
-            "██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║",
-            "╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝",
-            "",
-          },
+ {
+  "goolord/alpha-nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  config = function()
+    local alpha = require("alpha")
+    local dashboard = require("alpha.themes.dashboard")
 
-          center = {
-            { icon = "󰝰 ", desc = "Find File", key = "f", action = "Telescope find_files" },
-            { icon = " ", desc = "Configs", key = "c", action = function()
-              vim.cmd("cd ~/.config")
-              vim.cmd("NvimTreeToggle")
-            end,
-            },
-            { icon = " ", desc = "New File", key = "n", action = "ene | startinsert" },
-            { icon = "󰈞 ", desc = "Explorer", key = "e", action = "NvimTreeToggle" },
-            { icon = "󰩈 ", desc = "Quit", key = "q", action = "qa" },
-          },
+    dashboard.section.header.val = {
+      "LAZYVIM",
+    }
 
-          footer = {
-            "Eat. Sleep. Code. Repeat. ⚡",
-          },
-        },
-      })
-    end,
-  },
+    dashboard.section.buttons.val = {
+      dashboard.button("f", "󰝰  Find File"),
+      dashboard.button("n", "  New File"),
+      dashboard.button("e", "󰈞  Explorer"),
+      dashboard.button("c", "  Configs"),
+      dashboard.button("q", "󰩈  Quit"),
+    }
+
+    alpha.setup(dashboard.config)
+  end,
+} 
 
   --  FUZZY FINDER (per Find File)
   {
