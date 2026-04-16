@@ -16,6 +16,7 @@ When ill have a PC, i'll have EndeavourOS with Hyprland and i am really attached
 
 -Starship config
 -Fastfetch config
+-NeoVim config
 
 (maybe i'll add the editor theme too some day)
 
