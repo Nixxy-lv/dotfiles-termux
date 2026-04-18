@@ -40,3 +40,13 @@ You can use this configs however you want! modify, tweak, keep the same... All i
 <h1></h1>
 
 Well, that was all! have a good day :)
+
+<h2>Star History</h2>
+
+<a href="https://www.star-history.com/?repos=nixxy-lv/temp-read&type=date&legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/temp-read&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/temp-read&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nixxy-lv/temp-read&type=date&legend=top-left" />
+  </picture>
+</a>
