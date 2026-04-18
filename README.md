@@ -2,7 +2,8 @@
   <img src="https://img.shields.io/badge/! WARNING !-red?style=for-the-badge">
 </p>
 THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
-<br>
+
+<h1 align="center">info</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Repo-Name-blueviolet?style=for-the-badge">
