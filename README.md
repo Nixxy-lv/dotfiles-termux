@@ -37,6 +37,6 @@ You can use this configs however you want! modify, tweak, keep the same... All i
 (If you're using these configs without a change and saying it's yours, that's not allowed... duh)
 
 
-###################
+<h1></h1>
 
 Well, that was all! have a good day :)
