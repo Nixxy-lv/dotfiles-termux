@@ -3,7 +3,10 @@
 </p>
 THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
 
-<h1 align="center">info</h1>
+## About me ##
+
+Hello! im an italian developer looking to get linux, game dev and general programming knowledge!
+Since i dont yet have a PC, i use ACode to make my code or neovim on termux sometimes.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Repo-Name-blueviolet?style=for-the-badge">
@@ -15,11 +18,6 @@ THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
     <img src="https://img.shields.io/badge/My-Webpage-blueviolet?style=for-the-badge&logo=html5&logoColor=white">
   </a>
 </p>
-
-## About me ##
-
-Hello! im an italian developer looking to get linux, game dev and general programming knowledge!
-Since i dont yet have a PC, i use ACode to make my code or neovim on termux sometimes.
 
 ## Why does this Repository even exist? ##
 
