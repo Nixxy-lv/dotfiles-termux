@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/! WARNING !-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/! WARNING !-red?style=plastic">
 </p>
 THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
 
