@@ -9,7 +9,7 @@ Hello! im an italian developer looking to get linux, game dev and general progra
 Since i dont yet have a PC, i use ACode to make my code or neovim on termux sometimes.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repo-Name-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Dotfiles-Termux-blueviolet?style=plastic">
 <br>
 <a href="mailto:nixdev888@gmail.com">
     <img src="https://img.shields.io/badge/Contact-Me-white?style=for-the-badge&logo=gmail&logoColor=white">
