@@ -1,7 +1,5 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/! WARNING !-red?style=plastic">
-</p>
-THE CODE CONTAINS JETBRAINS ICONS AND MAY NOT WORK ON ALL FONTS
+[![WARNING]]
+> THE CONFIGS CONTAIN NERD ICONS AND MAY NOT WORK ON ALL FONTS
 
 ## About me ##
 
@@ -21,25 +19,13 @@ Since i dont yet have a PC, i use ACode to make my code or neovim on termux some
 
 ## Why does this Repository even exist? ##
 
-When ill have a PC, i'll have EndeavourOS with Hyprland and i am really attached to my configs so i don't wanna give them up while switching, so i made this repository where i could get my configs back!
+This repository exists so i can have my dotfiles somewhere and don't lose them!
 
 ## What is in the Repository? ##
 
--Starship config
 -Fastfetch config
 -NeoVim config
-
-(maybe i'll add the editor theme too some day)
-
-## What can you do with this Repository? ##
-
-You can use this configs however you want! modify, tweak, keep the same... All is up to you!
-(If you're using these configs without a change and saying it's yours, that's not allowed... duh)
-
-
-<h1></h1>
-
-Well, that was all! have a good day :)
+-Termux Themes
 
 <h2>Star History</h2>
 

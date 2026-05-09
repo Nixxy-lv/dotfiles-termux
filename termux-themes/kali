@@ -1,0 +1,38 @@
+# Background & foreground (slightly richer depth)
+background=#0d1218
+foreground=#d7e0e5
+
+# Cursor (clean white 🤍)
+cursor=#ffffff
+
+# Black / dark gray (a bit less flat)
+color0=#121820
+color8=#3f4a5a
+
+# Red (more presence, still soft)
+color1=#e07b7b
+color9=#ff8a8a
+
+# Green (gentle but alive 🌿)
+color2=#7fbf7a
+color10=#9fd69a
+
+# Yellow (warmer, more readable)
+color3=#e0c06a
+color11=#f0d48a
+
+# Blue (Kali signature, slightly richer 💙)
+color4=#4f86c6
+color12=#72a6e6
+
+# Magenta (soft but clearer)
+color5=#b08ad6
+color13=#caa6ea
+
+# Cyan (clean teal pop)
+color6=#58b3b3
+color14=#7fd6d6
+
+# White / light gray (brighter for contrast)
+color7=#d7e0e5
+color15=#ffffff
