@@ -2,7 +2,7 @@
 vim.g.mapleader = " "  
 
 -- bootstrap lazy.nvim  
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim" -- Aain, path may variate
 
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -248,10 +248,10 @@ dependencies = { "nvim-lua/plenary.nvim" },
 },  
 
 ------------------------------------------------------------
--- FIX: NOTIFICATIONS
+-- NOTIFICATIONS
 ------------------------------------------------------------
 
--- NOTIFICATIONS (must load BEFORE noice uses vim.notify)
+-- NOTIFICATIONS
 {  
   "rcarriga/nvim-notify",  
   config = function()  

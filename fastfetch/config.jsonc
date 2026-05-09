@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "file",
-    "source": "~/.config/fastfetch/ascii.txt",
+    "source": "~/.config/fastfetch/ascii.txt", // PATH MAY BE DIFFERENT
     "color": {
       "1": "#F5E0DC",
       "2": "#F2CDCD",
